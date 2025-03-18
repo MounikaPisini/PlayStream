@@ -1,0 +1,49 @@
+.image-card {
+                         margin-left: 400px;
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         height: 600px;
+                         width: 500px;
+                         
+                       }
+                       .nodata-container {
+                         margin-top: 150px;
+                       
+                         align-items: center;
+                         width: 800px;
+                         height: 600px;
+                       }
+                       @media (max-width: 576px) {
+                         .nodata-container {
+                           align-items: center;
+                           width: 280px;
+                           height: 220px;
+                         }
+                         .image-card {
+                           margin-left: 100px;
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+                           height: 400px;
+                           width: 250px;
+                           margin-top: 60px;
+                         }
+                       }
+                       @media (max-width: 768px) {
+                         .image-card {
+                           height: 90px;
+                           width: 60px;
+                           margin-top: 150px;
+                           margin-left: 250px;
+                         }
+                         .nodata-container {
+                           margin-top: 150px;
+                           align-items: center;
+                           width: 400px;
+                           height: 300px;
+                         }
+                       }
+
+
+            

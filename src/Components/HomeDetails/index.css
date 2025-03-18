@@ -1,0 +1,167 @@
+.aline-flex {
+                         display: flex;
+                         flex-direction: row;
+                       }
+                       
+                       @media (max-width: 575px) {
+                         .home-loader {
+                           margin-top: 50px;
+                           margin-left: 20px;
+                           height: 1000px;
+                           font-style: 'Roboto';
+                         }
+                       }
+                       .trailer-container {
+                         height: 50vh;
+                         width: 100%;
+                         margin-top: 20px;
+                         display: flex;
+                         flex-direction: row;
+                       }
+                       
+                       .movie-details {
+                         display: flex;
+                         flex-direction: column;
+                         margin-left: 170px;
+                         width: 100vw;
+                         margin-top: 100px;
+                       }
+                       
+                       .loader-container {
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         height: 100vh;
+                         width: 100vw;
+                       }
+                       
+                       .details {
+                         display: flex;
+                         flex-direction: column;
+                         margin-left: 10px;
+                         width: 300px;
+                       }
+                       .channelname-icon {
+                         width: 35px;
+                         height: 35px;
+                         border-radius: 50%;
+                       }
+                       
+                       .video-Title {
+                         color: rgb(5, 4, 4);
+                         font-family: 'Roboto';
+                         margin-top: -1px;
+                         font-size: 20px;
+                         font-weight: 700;
+                       }
+                       .video_channelname {
+                         color: rgb(87, 87, 87);
+                         font-family: 'Roboto';
+                         font-size: 16px;
+                         font-weight: 400;
+                       }
+                       .view-count-date {
+                         display: flex;
+                         text-decoration: none;
+                       }
+                       .viewcount {
+                         color: rgb(26, 25, 25);
+                         font-family: 'Roboto';
+                         font-size: 16px;
+                         font-weight: 400;
+                         margin-right: 15px;
+                         margin-top: 0px;
+                       }
+                       .date {
+                         color: rgb(26, 25, 25);
+                         font-family: 'Roboto';
+                         font-size: 16px;
+                         font-weight: 400;
+                         margin-top: 0px;
+                       }
+                       
+                       .alldetails {
+                         justify-content: space-between;
+                         flex-direction: row;
+                         display: flex;
+                         margin-top: 180px;
+                       }
+                       iframe {
+                         border-radius: 15px;
+                         margin-bottom: 100px;
+                         border: none;
+                       }
+                       
+                       .commentsdetails {
+                         display: flex;
+                         flex-direction: column;
+                         margin-bottom: 20px;
+                         margin-left: 5px;
+                         font-size: 18px;
+                         font-weight: 400;
+                         align-items: flex-start;
+                         font-family: 'Roboto';
+                       }
+                       
+                       .liked-save-dislike-card {
+                         display: flex;
+                         flex-direction: row;
+                         background: none;
+                         margin-right: 50px;
+                         outline: none;
+                         border: none;
+                       }
+                       
+                       .comments-data {
+                         display: flex;
+                         flex-direction: row;
+                         font-size: 18px;
+                         font-weight: 600;
+                         text-align: center;
+                         align-items: center;
+                       }
+                       .profile-image {
+                         width: 30px;
+                         height: 30px;
+                         border-radius: 50%;
+                         background-color: rgb(95, 158, 252);
+                         padding: 5px;
+                         color: black;
+                         padding-bottom: 2px;
+                         
+                         background-image: none;
+                       }
+                       .people-comments {
+                         font-size: 16px;
+                         font-family: 'Roboto';
+                         color: rgb(12, 9, 9);
+                         margin-top: -1px;
+                         margin-bottom: 3px;
+                       }
+                       .active {
+                         color: blue;
+                         outline: none;
+                         border: none;
+                         background: none;
+                       }
+                       .liked-icon,
+                       .disliked-icon,
+                       .save-icon {
+                         width: 20px;
+                         height: 20px;
+                         margin: 5px;
+                       
+                         /* padding: 10px;
+                         border-radius: 50px;
+                         border: none;
+                         background: none;
+                         justify-content: space-between;  */
+                       }
+                       
+                       .buttons {
+                         background: none;
+                         border: none;
+                         outline: none;
+                       }
+                       
+                       

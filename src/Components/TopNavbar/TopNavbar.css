@@ -1,0 +1,251 @@
+.nav1 {
+                         position: fixed;
+                         top: 0;
+                         left: 0;
+                         background-color: #fffefe;
+                       
+                         width: 100%;
+                       }
+                       
+                       .nav-list {
+                         display: flex;
+                         justify-content: space-between; /* Ensure proper space between elements */
+                         align-items: center;
+                         list-style-type: none;
+                         padding: 0;
+                         margin: 0;
+                       }
+                       
+                       .search-container {
+                         display: flex;
+                         align-items: center;
+                         width: 450px;
+                         height: 40px;
+                         border-radius: 20px;
+                         padding: 5px;
+                         border: 1px solid #cbd5e1;
+                         overflow: hidden;
+                       }
+                       
+                       .serachBar {
+                         flex: 1;
+                         border: none;
+                         outline: none;
+                         font-size: 18px;
+                         padding: 5px;
+                       }
+                       
+                       .serachBar:focus {
+                         border: none;
+                       }
+                       
+                       .search-icon {
+                         width: 20px;
+                         height: 20px;
+                         margin-right: 10px;
+                       }
+                       
+                       .user-btn {
+                         display: flex;
+                         align-items: center;
+                         margin-right: 20px;
+                       }
+                       
+                       .logoutBtn {
+                         width: 90px;
+                         height: 37px;
+                         margin-left: 10px; /* Space between icon and button */
+                         text-align: center;
+                         margin-right: 20px;
+                         outline: none; /* Remove outline */
+                         border: 2px solid #3b82f6;
+                         border-radius: 5px;
+                         background: transparent; /* Set background color to transparent */
+                         color: #4f46e5;
+                         font-size: 15px; /* Set font size */
+                       }
+                       
+                       .user-prf {
+                         width: 30px;
+                         height: 30px;
+                         color: #00306e;
+                         margin-right: 10px;
+                         margin-left: 10px;
+                       }
+                       
+                       .hedaing-logo {
+                         display: flex;
+                         font-family: cursive;
+                         margin-right: 10px;
+                       }
+                       .first-heading {
+                         color: white;
+                         background-color: red;
+                         font-weight: bold; /* Apply bold font weight */
+                         margin-left: 100px;
+                         padding: 3px;
+                       }
+                       
+                       .sec-heading {
+                         color: rgb(43, 62, 101);
+                         font-weight: bold; /* Apply bold font weight */
+                         margin-left: 5px;
+                         padding: 3px;
+                       }
+                       
+                       .first-heading,
+                       .sec-heading,
+                       .user-prf,
+                       .logoutBtn {
+                         display: inline-flex; /* Ensure all elements are displayed in a single line */
+                         align-items: center; /* Align elements vertically within their containers */
+                       }
+                       
+                       .popup-content {
+                         border: 1px solid #ccc;
+                         background-color: #fff;
+                         width: 200px; /* Adjust width as needed */
+                       
+                         border-radius: 8px;
+                         display: flex;
+                         flex-direction: column;
+                         align-items: center;
+                         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+                       }
+                       
+                       .popup-content p {
+                         margin-bottom: 20px; /* Adjust margin as needed */
+                         text-align: center;
+                       }
+                       
+                       .confirm-btn,
+                       .cancel-btn {
+                         padding: 8px 16px; /* Adjust padding as needed */
+                         margin-bottom: 10px;
+                         margin-top: 10px; /* Adjust margin as needed */
+                         background-color: #ff0b37;
+                         color: #fff;
+                         border: none;
+                         border-radius: 4px;
+                         cursor: pointer;
+                         transition: background-color 0.3s ease; /* Smooth transition */
+                       }
+                       
+                       .confirm-btn:hover,
+                       .cancel-btn:hover {
+                         background-color: #ff0000; /* Darker color on hover */
+                       }
+                       
+                       .cancel-btn {
+                         background-color: #3b82f6; /* Different background color for cancel button */
+                       }
+                       
+                       .cancel-btn:hover {
+                         background-color: #4f46e5; /* Darker color on hover for cancel button */
+                       }
+                       
+                       @media only screen and (max-width: 576px) {
+                         .first-heading {
+                           font-size: 10px;
+                         }
+                       
+                         .sec-heading {
+                           font-size: 10px;
+                         }
+                         .logoutBtn {
+                           width: 50px;
+                           height: 20px;
+                           font-size: 10px; /* Set font size */
+                         }
+                         .user-prf {
+                           width: 20px;
+                           height: 20px;
+                           color: #00306e;
+                           margin-right: 10px;
+                         }
+                       
+                         .search-container {
+                           width: 350px;
+                           height: 28px;
+                           border-radius: 15px;
+                         }
+                         .serachBar {
+                           flex: 1;
+                           border: none;
+                           outline: none;
+                           font-size: 14px;
+                           padding: 5px;
+                         }
+                       }
+                       
+                       .mainNavbar {
+                         display: block; /* Hide the main navbar on small screens */
+                       }
+                       
+                       .secondNavbar {
+                         display: none; /* Show the second navbar on small screens */
+                       }
+                       
+                       @media (max-width: 575px) {
+                         .mainNavbar {
+                           display: none; /* Hide the main navbar on small screens */
+                         }
+                       
+                         .secondNavbar {
+                           display: block; /* Show the second navbar on small screens */
+                         }
+                       
+                         .hedaing-logo {
+                           display: flex;
+                           font-family: cursive;
+                           margin-right: 10px;
+                         }
+                         .first-heading {
+                           font-size: 10px;
+                           margin-left: 15px;
+                           padding: 3px;
+                         }
+                       
+                         .sec-heading {
+                           font-size: 10px;
+                           margin-left: 5px;
+                           padding: 3px;
+                         }
+                       
+                         .logoutBtn {
+                           width: 55px;
+                           height: 24px;
+                           margin-right: -5px;
+                           font-size: 10px; /* Set font size */
+                         }
+                       
+                         .user-prf {
+                           width: 18px;
+                           height: 18px;
+                         }
+                       
+                         .search-container {
+                           width: 200px;
+                           height: 24px;
+                           border-radius: 12px;
+                           margin-left: 5px;
+                           margin-right: 5px;
+                         }
+                         .serachBar {
+                           font-size: 8px;
+                           padding: 3px;
+                         }
+                       
+                         .popup-content {
+                           width: 140px; /* Adjust width as needed */
+                           border-radius: 6px;
+                           font-size: 10px;
+                         }
+                         .confirm-btn,
+                         .cancel-btn {
+                           padding: 4px 12px; /* Adjust padding as needed */
+                           margin-bottom: 5px;
+                           margin-top: 5px; /* Adjust margin as needed */
+                           font-size: 8px;
+                         }
+                       }

@@ -1,0 +1,14 @@
+.play-button{
+                         width:10vw;
+                         height:6vh;
+                         background-color: hwb(0 0% 0%);
+                         border-radius: 5px;
+                         border-color:#ff0000;
+                         box-shadow:18px;
+                         font-family: "Roboto";
+                         font-weight: bold;
+                         font-size: 18px;
+                         padding: 10px;
+                         text-decoration:none;
+                         color: black;                       
+}
