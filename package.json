@@ -44,5 +44,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "resolutions": {
+  "loader-utils": "^2.0.4",
+  "shell-quote": "^1.7.3"
+}
 }

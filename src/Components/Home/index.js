@@ -69,7 +69,7 @@ class Home extends Component {
             <ul className="allview-card">
               {filteredVideos.length === 0 ? (
                 <NotFound />
-              ) : (
+              ) : ( 
                 filteredVideos.map(video => (
                   <Link
                     to={`/videos/${video.id}`}
